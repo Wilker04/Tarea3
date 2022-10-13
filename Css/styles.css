@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.contenido, .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    padding-top: 50px;
+}
+
+.formulario input{
+    margin-bottom: 10px;
+}
+
+.lista{
+    text-indent: 50px;
+}
+
+.renglon{
+    font-weight: bold;
+}
+
+.enviar{
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 80px;
+    cursor:pointer;
+}
+
+.enviar{
+    color: white;
+}
+
